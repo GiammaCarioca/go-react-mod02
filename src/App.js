@@ -1,17 +1,9 @@
 import React from 'react';
-import styled from 'styled-components';
 
 import './styles/global';
 
-const Title = styled.h1`
-  color: #fff;
-  font-size: 32px;
-`;
+import Main from './pages/Main';
 
-const App = () => (
-  <div className="App">
-    <Title>Hello World</Title>
-  </div>
-);
+const App = () => <Main />;
 
 export default App;
